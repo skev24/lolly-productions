@@ -10,10 +10,12 @@ const HomePage = () => {
   return (
     <div>
       <Header />
-      <HeroSection />
-      <AboutSection />
-      <EventsSection />
-      <ContactSection />
+      <main>
+        <HeroSection />
+        <AboutSection />
+        <EventsSection />
+        <ContactSection />
+      </main>
       <Footer />
     </div>
   );

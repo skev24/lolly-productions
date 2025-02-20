@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,134 @@
   to {
     transform: rotate(360deg);
   }
+}
+ */
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Color de fondo claro */
+  color: #333; /* Color de texto oscuro */
+}
+
+main {
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #000000; /* Color de texto para encabezados */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+header {
+  background: rgb(214,255,127);
+  background: linear-gradient(90deg, rgba(214,255,127,1) 0%, rgba(9,105,121,1) 35%, rgba(0,179,204,1) 100%);
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+header nav a {
+  margin: 0 15px;
+  color: white;
+  font-size: 18px;
+}
+
+/* Estilos para el HeroSection */
+.hero-section {
+  /* background: url('tu-imagen-de-fondo.jpg') no-repeat center center/cover; */
+  background-color: #41ee72;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+}
+
+/* Estilos para AboutSection */
+.about-section {
+  background-color: #fff; /* Fondo blanco */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  color: #1E2A38;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+/* Estilos para EventsSection */
+.events-section {
+  background-color: #f7f7f7; /* Fondo gris claro */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.events-section h2 {
+  font-size: 2.5rem;
+  color: #1E2A38;
+}
+
+.event-item {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para ContactSection */
+.contact-section {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  color: #1E2A38;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #1E2A38;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para Footer */
+footer {
+  background: rgb(214,255,127);
+  background: linear-gradient(90deg, rgba(214,255,127,1) 0%, rgba(9,105,121,1) 35%, rgba(0,179,204,1) 100%);
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
