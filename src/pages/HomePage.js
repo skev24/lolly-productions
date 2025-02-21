@@ -14,7 +14,7 @@ const HomePage = () => {
         <HeroSection />
         <AboutSection />
         <EventsSection />
-        <ContactSection />
+        <ContactSection /> 
       </main>
       <Footer />
     </div>
