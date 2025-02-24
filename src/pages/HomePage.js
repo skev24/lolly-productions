@@ -13,8 +13,8 @@ const HomePage = () => {
       <main>
         <HeroSection />
         <AboutSection />
-        {/* <EventsSection /> */}
-        {/* <ContactSection />  */}
+        <EventsSection />
+        <ContactSection /> 
       </main>
       <Footer />
     </div>

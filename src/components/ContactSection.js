@@ -26,7 +26,7 @@ const ContactSection = () => {
               rows="4"
               className="w-full px-4 py-2 rounded-lg bg-gray-800 text-white focus:outline-none"
             ></textarea>
-            <Button className="bg-pink-600 hover:bg-pink-700">Send Message</Button>
+            <Button className="button">Send Message</Button>
           </form>
         </div>
       </section>
