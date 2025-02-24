@@ -18,7 +18,7 @@ body {
 } */
 
 header {
-  background: linear-gradient(90deg, rgba(214,255,127,1) 0%, rgba(9,105,121,1) 35%, rgba(0,179,204,1) 100%);
+  background: linear-gradient(90deg, rgba(214, 255, 127, 1) 0%, rgba(9, 105, 121, 1) 35%, rgba(0, 179, 204, 1) 100%);
   color: white;
   padding: 20px;
 }
@@ -34,8 +34,8 @@ header h1 {
   font-weight: bold; */
   color: rgb(0, 0, 0);
   font-family: 'Montserrat Alternates', sans-serif;
-  font-size: 28px; /* Ajusta el tamaño del título si es necesario */
-  margin: 0; /* Elimina márgenes para evitar desbordamiento */
+  font-size: 28px;
+  margin: 0;
 }
 
 header nav a {
@@ -61,7 +61,7 @@ header nav a:hover {
 
 .hero h2 {
   font-size: 3rem;
-  font-weight: 800;
+  font-weight:bolder;
 }
 
 .hero p {
@@ -72,11 +72,15 @@ header nav a:hover {
 
 .hero .button {
   margin-top: 20px;
-  background-color: #ec4899;
+  background-color: #db2777;
   padding: 12px 24px;
   border-radius: 8px;
+  border: none;
   font-weight: bold;
+  font-size: 0.8rem;
+  color: white;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .hero .button:hover {
@@ -100,12 +104,12 @@ header nav a:hover {
 }
 
 /* Events Section */
-#events {
+/* .event {
   background-color: #1f2937;
   padding: 60px 20px;
 }
 
-#events h3 {
+.event h3 {
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
@@ -130,10 +134,10 @@ header nav a:hover {
 .event-card p {
   color: #d1d5db;
   margin-top: 5px;
-}
+} */
 
 /* Contact Section */
-#contact {
+/* #contact {
   padding: 60px 20px;
   text-align: center;
 }
@@ -165,7 +169,7 @@ header nav a:hover {
 
 #contact .button:hover {
   background-color: #be185d;
-}
+} */
 
 /* Footer */
 footer {
