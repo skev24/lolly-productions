@@ -6,3 +6,14 @@ function App() {
 }
 
 export default App;
+// import TestSupabase from "./components/TestSupabase";
+
+// function App() {
+//   return (
+//     <div className="bg-black min-h-screen p-6">
+//       <TestSupabase />
+//     </div>
+//   );
+// }
+
+// export default App;
