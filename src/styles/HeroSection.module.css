@@ -1,0 +1,36 @@
+
+.hero {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+    font-weight:bolder;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #d1d5db;
+  }
+  
+  .hero .button {
+    margin-top: 20px;
+    background-color: #db2777;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .hero .button:hover {
+    background-color: #be185d;
+  }

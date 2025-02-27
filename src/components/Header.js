@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import styles from "../styles/Header.module.css";
 
 const Header = () => {
 
@@ -8,20 +9,24 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen); 
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   const handleClick = () => {
     window.location.href = window.location.origin; 
   };
 
   return (
     <header>
-      <div className="container">
+      <div className={styles.container}>
         <h1 onClick={handleClick}>Lolly Productions</h1>
-        <nav className={isMenuOpen ? 'active' : ''}>
-          <a href="#about">About</a>
-          <a href="#events">Events</a>
-          <a href="#contact">Contact</a>
+        <nav className={`${styles.nav} ${isMenuOpen ? styles.active : ''}`}>
+          <a href="#about" onClick={closeMenu}>About</a>
+          <a href="#events" onClick={closeMenu}>Events</a>
+          <a href="#contact" onClick={closeMenu}>Contact</a>
         </nav>
-        <div className="hamburger" onClick={toggleMenu}>
+        <div className={styles.hamburger} onClick={toggleMenu}>
           <span></span>
           <span></span>
           <span></span>

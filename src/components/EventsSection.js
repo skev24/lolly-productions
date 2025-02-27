@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { supabase } from "../services/supabaseClient";
+import "../styles/EventsSection.css"
 
 
 const EventsSection = () => {

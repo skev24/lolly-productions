@@ -1,0 +1,15 @@
+
+#about {
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  #about h3 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  #about p {
+    margin-top: 10px;
+    color: #d1d5db;
+  }
