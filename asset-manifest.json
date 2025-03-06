@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/lolly-productions/static/css/main.9456eb2c.css",
+    "main.js": "/lolly-productions/static/js/main.35995a55.js",
+    "static/js/198.444104bd.chunk.js": "/lolly-productions/static/js/198.444104bd.chunk.js",
+    "static/js/453.718cb783.chunk.js": "/lolly-productions/static/js/453.718cb783.chunk.js",
+    "index.html": "/lolly-productions/index.html",
+    "main.9456eb2c.css.map": "/lolly-productions/static/css/main.9456eb2c.css.map",
+    "main.35995a55.js.map": "/lolly-productions/static/js/main.35995a55.js.map",
+    "198.444104bd.chunk.js.map": "/lolly-productions/static/js/198.444104bd.chunk.js.map",
+    "453.718cb783.chunk.js.map": "/lolly-productions/static/js/453.718cb783.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9456eb2c.css",
+    "static/js/main.35995a55.js"
+  ]
+}
